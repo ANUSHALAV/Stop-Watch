@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <!-- top-section -->
+    <div class="top-section">
+        <h3>Stop Watch</h3>
+    </div>
+
+    <!-- main-section -->
+    <div class="main-section">
+        <span id="hourse">00</span>
+        <span>:</span>
+        <span id="minutes">00</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+
+        <!-- button-section -->
+        <div class="btns">
+            <button class="startbtn" id="startbutton" onclick="timestart()"><i class="fa-sharp fa-solid fa-play"></i>
+            </button>
+            <button class="stopbtn" onclick="stopbtn()"><i class="fa-sharp fa-solid fa-stop"></i></button>
+
+            <button class="clearbtn" onclick="clearbtn()">clear</button>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="https://kit.fontawesome.com/f76435d516.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
