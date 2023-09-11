@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -29,15 +30,14 @@ body {
 .main-section {
     margin-inline: 30%;
     margin-block:80px;
-    height: 40vh;
-    padding: 80px 20px;
+    height: fit-content;
+    padding: 20px;
     width: 40%;
     background: #95a5a631;
     text-align: center;
     border: 1px solid black;
     font-size: 3rem;
     font-weight: bolder;
-    box-shadow: 0 0 15px black;
 }
 
 /* main-section-end */
@@ -73,6 +73,7 @@ body {
     border: none;
     background: black;
     color: white;
+    border-radius: 10px;
 }
 
 /* button-section-end */

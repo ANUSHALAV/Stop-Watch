@@ -21,15 +21,18 @@ let start = () => {
 }
 let a;
 function timestart() {
+    document.querySelector("#startbutton").disabled=true;
     a = setInterval(start, 1000);
 }
 
 
 let stopbtn = () => {
+    document.querySelector("#startbutton").disabled=false;
     clearInterval(a);
 }
 
 let clearbtn = () => {
+    document.querySelector("#startbutton").disabled=false;
     clearInterval(a);
     document.getElementById('seconds').innerHTML = "00";
     document.getElementById('minutes').innerHTML = "00";
